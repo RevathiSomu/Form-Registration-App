@@ -25,14 +25,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_2_clicked()
 {
-    QMessageBox::StandardButton reply=QMessageBox::information(this,"Janakiram-212218205018","Submitted");
+    QMessageBox::StandardButton reply=QMessageBox::information(this,"Revathi-212218205042","Submitted");
 
 }
 
 void MainWindow::on_lineEdit_returnPressed()
 {
     if(ui->lineEdit->text().length()>200)
-        QMessageBox::information(this,"Janakiram-212218205018","More than 50 words in Area of Interest");
+        QMessageBox::information(this,"Revathi-212218205042","More than 50 words in Area of Interest");
 
 }
 
@@ -43,7 +43,7 @@ void MainWindow::on_lineEdit_2_returnPressed()
     bool hasMatch=match.hasMatch();
     if(!hasMatch)
     {
-       QMessageBox::information(this,"Janakiram- 212218205018","EmailID is invalid");
+       QMessageBox::information(this,"Revathi-212218205042","EmailID is invalid");
     }
 
 }
